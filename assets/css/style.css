@@ -1,0 +1,79 @@
+
+body
+{
+    background-color: black;
+    margin-bottom: 8%
+}
+
+.clock {
+    width: 10%;
+    font-size: 20px;
+    background-color: #337ab7;
+    color: lightgray;
+    border: 2px solid black;
+  }
+
+header
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #337ab7;
+    color: lightgray;
+    border-bottom: 10px solid lightgrey;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#scheduleRow
+{
+    margin-bottom: 30px;
+}
+
+input
+{
+    width: 100%;
+}
+
+#tStation
+{
+    width: 95%;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    margin-bottom: 10%;
+}
+.clock
+{
+    width: 20%;
+    font-size: 25px;
+    background-color: #1827b4;
+    color: lightgray;
+    border: 2px solid black;
+    position:absolute;
+    top: 977%;
+    left: 38%;
+    z-index: 2;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+footer
+{
+	background-color: #337ab7;
+	font-family: 'Times New Roman', Times, serif;
+	color: lightgray;
+    border-top: 10px solid lightgray;
+    margin-top: 60px;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    text-align: center;
+}

@@ -1,2 +1,3 @@
-# TrainScheduler-
+# TrainScheduler
+
 Train Scheduler using Firebase
